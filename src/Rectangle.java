@@ -30,4 +30,12 @@ public class Rectangle {
         }
 
     }
+    public void draw() {
+        for (int q = 0; q < this.sideB; q++){
+            System.out.println("");
+            for (int i = 0; i < this.sideA; i++) {
+                System.out.print("x");
+            }
+        }
+    }
 }

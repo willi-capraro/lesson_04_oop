@@ -15,18 +15,26 @@ public class MyApp {
         c.drive();
         k.drive();*/
 
-        Rectangle r1 = new Rectangle();
-        r1.setSideA(5);
+       /* Rectangle r1 = new Rectangle();
+       r1.setSideA(5);
         r1.setSideB(4);
         int area1 = r1.calcArea();
         System.out.println("the area of rectangle 1 is: " + area1);
         int perimeter1 = r1.calcPermimeter();
-        System.out.println("the perimeter of rectangle 1 is: " + perimeter1);
+        System.out.println("the perimeter of rectangle 1 is: " + perimeter1);*/
 
         Rectangle r2 = new Rectangle();
         r2.setSideA(5);
         r2.setSideB(10);
-        if (r2.isSquare()) {
+        r2.draw();
+
+
+
+
+
+
+
+        /*  if (r2.isSquare()) {
             System.out.println("r2 is a square, my friend!");
         }
         else {
@@ -42,7 +50,10 @@ public class MyApp {
         }
         else {
             System.out.println("r1 is bigger or the same size");
-        }
+        }*/
     }
-
 }
+
+
+
+
